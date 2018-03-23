@@ -20,7 +20,7 @@ def get_songs(path):
             raise e
     return songs
 
-songs = get_songs('Pink Floyd midi') #These songs have already been converted from midi to msgpack
+songs = get_songs('Jazz_Progressions') #These songs have already been converted from midi to msgpack
 print ("{} songs processed".format(len(songs)))
 
 ### HyperParameters
